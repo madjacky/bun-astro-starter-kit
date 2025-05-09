@@ -1,0 +1,10 @@
+:where(:root) {
+  --size-xxs: 15em;
+  --size-xs: 22.5em;
+  --size-sm: 30em;
+  --size-md: 48em;
+  --size-lg: 64em;
+  --size-xl: 90em;
+  --size-xxl: 120em;
+  --marker-size: 75px;
+}

@@ -1,0 +1,13 @@
+:where(:root) {
+  --content-size-1: 20ch;
+  --content-size-2: 45ch;
+  --content-size-3: 60ch;
+  --content-size-4: 80ch;
+  --content-size-5: 90ch;
+  --content-size-6: 100ch;
+  --content-size-7: 111.31ch; /* 960px   */
+  --content-size-8: 118.73ch; /* 1024px  */
+  --content-size-9: 129.16ch; /* 1140px */
+  --content-size-10: 142.61ch; /* 1230px */
+  --content-size-11: 155.37ch; /* 1440px */
+}

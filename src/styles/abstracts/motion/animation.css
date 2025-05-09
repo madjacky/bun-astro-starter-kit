@@ -1,0 +1,23 @@
+@keyframes glitch {
+  0%,12%,13%,24%,27%,54%,57%,59%,62%,81%,84%,9%,to {
+    transform: skew(0turn);
+  }
+  10%,11%,25%,26%,55%,56%,60%,61%,82%,83% {
+    transform: skew(.5turn);
+  }
+}
+
+@keyframes scale-in-and-out {
+  entry 0%  {
+		transform: scale(.25);
+	}
+  entry 100%  {
+		transform: scale(1);
+	}
+  exit 0% {
+		transform: scale(1);
+	}
+  exit 100% {
+		transform: scale(.25);
+	}
+}

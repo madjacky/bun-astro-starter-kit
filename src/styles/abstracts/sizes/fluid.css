@@ -1,0 +1,12 @@
+:where(:root) {
+  --fluid-size-1: clamp(0.5rem, 1vi, 1rem);
+  --fluid-size-2: clamp(1rem, 2vi, 1.5rem);
+  --fluid-size-3: clamp(1.5rem, 3vi, 2rem);
+  --fluid-size-4: clamp(2rem, 4vi, 3rem);
+  --fluid-size-5: clamp(4rem, 5vi, 5rem);
+  --fluid-size-6: clamp(5rem, 7vi, 7.5rem);
+  --fluid-size-7: clamp(7.5rem, 10vi, 10rem);
+  --fluid-size-8: clamp(10rem, 20vi, 15rem);
+  --fluid-size-9: clamp(15rem, 30vi, 20rem);
+  --fluid-size-10: clamp(20rem, 40vi, 30rem);
+}

@@ -1,0 +1,18 @@
+:where(:root) {
+  --neutral-0: 99% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-1: 95% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-2: 88% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-3: 80% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-4: 74% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-5: 68% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-6: 63% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-7: 58% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-8: 53% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-9: 49% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-10: 43% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-11: 37% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-12: 31% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-13: 25% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-14: 18% var(--neutral-chroma) var(--neutral-hue);
+  --neutral-15: 10% var(--neutral-chroma) var(--neutral-hue);
+}

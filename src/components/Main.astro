@@ -1,0 +1,17 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className, ...props } = Astro.props;
+---
+<main class="main">
+  <slot />
+</main>
+
+<style>
+  .main {
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+</style>

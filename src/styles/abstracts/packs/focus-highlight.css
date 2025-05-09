@@ -1,0 +1,13 @@
+:where(:root) {
+  --highlight-size: 10px;
+  --highlight-color: var(--black);
+  --highlight-color-opacity: 20%;
+  --highlight: 0 0 0 var(--highlight-size) oklch(var(--highlight-color) / var(--highlight-color-opacity));
+
+}
+@media (--OSdark) {
+  :where(:root) {
+    color-scheme: dark;
+    --highlight-color: var(--white);
+  }
+}

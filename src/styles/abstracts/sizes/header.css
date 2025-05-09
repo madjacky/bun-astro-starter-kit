@@ -1,0 +1,5 @@
+:where(:root) {
+  --header-size-1: 20ch;
+  --header-size-2: 25ch;
+  --header-size-3: 35ch;
+}

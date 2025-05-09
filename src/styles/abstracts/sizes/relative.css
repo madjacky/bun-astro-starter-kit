@@ -1,0 +1,19 @@
+:where(:root) {
+  --relative-negative-size-1: -0.5ch;
+  --relative-negative-size-2: -0.25ch;
+  --relative-size-1: .25ch;
+  --relative-size-2: .5ch;
+  --relative-size-3: 1ch;
+  --relative-size-4: 1.25ch;
+  --relative-size-5: 1.5ch;
+  --relative-size-6: 1.75ch;
+  --relative-size-7: 2ch;
+  --relative-size-8: 3ch;
+  --relative-size-9: 4ch;
+  --relative-size-10: 5ch;
+  --relative-size-11: 7.5ch;
+  --relative-size-12: 10ch;
+  --relative-size-13: 15ch;
+  --relative-size-14: 20ch;
+  --relative-size-15: 30ch;
+}

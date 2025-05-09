@@ -1,0 +1,7 @@
+:where(:root) {
+  --oklch-palette-hue: 250;
+  --oklch-palette-hue-rotate-by: 0;
+  --oklch-palette-chroma: 0.15;
+  --neutral-chroma: none;
+  --neutral-hue: none;
+}

@@ -1,0 +1,14 @@
+:where(:root) {
+  --oklch-palette-red-hue: 25;
+  --oklch-palette-pink-hue: 350;
+  --oklch-palette-purple-hue: 310;
+  --oklch-palette-violet-hue: 290;
+  --oklch-palette-indigo-hue: 270;
+  --oklch-palette-blue-hue: 240;
+  --oklch-palette-cyan-hue: 210;
+  --oklch-palette-teal-hue: 185;
+  --oklch-palette-green-hue: 145;
+  --oklch-palette-lime-hue: 125;
+  --oklch-palette-yellow-hue: 100;
+  --oklch-palette-orange-hue: 75;
+}

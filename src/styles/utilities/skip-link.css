@@ -1,0 +1,19 @@
+.skip-link {
+  position: absolute;
+  display: inline-grid;
+  place-items: center;
+  text-align: center;
+  padding-block: 1ex;
+  padding-inline: 2ex;
+  border-radius: var(--border-radius-2);
+  color: oklch(var(--link-color));
+  opacity: 0;
+  transform: translateY(-100%);
+  @media (prefers-reduced-motion: no-preference) {
+    transition: transform .3s var(--ease-3), opacity .3s var(--ease-3);
+  }
+  &:is(:focus) {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

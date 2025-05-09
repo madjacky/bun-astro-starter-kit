@@ -1,0 +1,29 @@
+:where(:root) {
+  --neon-red: 68.01% 0.2092 19.64;
+	--neon-red-glow: 54.51% 0.2226 29.2;
+	--neon-pink: 71.46% 0.2398 341.55;
+	--neon-pink-glow: 58.36% 0.2328 7.87;
+	--neon-purple: 62.63% 0.2211 294.14;
+	--neon-purple-glow: 44.42% 0.2755 276.01;
+	--neon-blue: 81.9% 0.1387 217.04;
+	--neon-blue-glow: 66.91% 0.131883 229.0125;
+	--neon-green: 87.7% 0.210553 156.5462;
+	--neon-green-glow: 71.3% 0.2246 144.88;
+	--neon-yellow: 89.76% 0.1581 94.45;
+	--neon-yellow-glow: 64.54% 0.1316 83.26;
+	--neon-white: 99.7% 0 0;
+	--neon-white-glow: 100% 0 0;
+}
+@supports (background: color(display-p3 1 1 1)) {
+  @media (dynamic-range: high) {
+    :where(:root) {
+      --neon-red: color(display-p3 1 0 0);
+			--neon-pink: color(display-p3 1 0 1);
+			--neon-purple: color(display-p3 0 0 1);
+			--neon-blue: color(display-p3 0 1 1);
+			--neon-green: color(display-p3 0 1 0);
+			--neon-yellow: color(display-p3 1 1 0);
+			--neon-white: color(display-p3 1 1 1);
+    }
+  }
+}

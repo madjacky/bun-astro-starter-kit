@@ -1,0 +1,29 @@
+@import 'hue.css';
+@import 'palette.css';
+@import 'neutral.css';
+@import 'gray.css';
+@import 'stone.css';
+@import 'red.css';
+@import 'pink.css';
+@import 'purple.css';
+@import 'violet.css';
+@import 'indigo.css';
+@import 'blue.css';
+@import 'cyan.css';
+@import 'teal.css';
+@import 'green.css';
+@import 'lime.css';
+@import 'yellow.css';
+@import 'orange.css';
+@import 'choco.css';
+@import 'brown.css';
+@import 'sand.css';
+@import 'camo.css';
+@import 'jungle.css';
+@import 'neon-p3.css';
+@import 'brands.css';
+
+:where(:root) {
+  --black: 0% 0 0;
+  --white: 100% 0 0;
+}
