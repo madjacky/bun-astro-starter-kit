@@ -36,13 +36,13 @@ const { title, class: className, ...props } = Astro.props;
 		display: grid;
 		grid-template-rows: [header] auto [main] 1fr [footer] auto;
 		& > .header {
-			grid-column: header;
+			grid-row: header;
 		}
 		& > .main {
-			grid-column: main;
+			grid-row: main;
 		}
 		& > .footer {
-			grid-column: footer;
+			grid-row: footer;
 		}
 	}
 </style>
