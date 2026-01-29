@@ -9,17 +9,20 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.15.3"
+    "astro": "^5.16.16",
+    "caniuse-lite": "^1.0.30001766"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.23",
+    "baseline-browser-mapping": "^2.9.19",
     "cssnano": "^7.1.2",
     "postcss-import": "^16.1.1",
-    "postcss-preset-env": "^10.4.0",
-    "@types/bun": "latest"
+    "postcss-preset-env": "^11.1.2",
+    "typescript": "^5.9.3"
   },
   "private": true,
   "peerDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "5.9.3"
   }
 }
